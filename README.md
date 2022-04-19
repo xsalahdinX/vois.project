@@ -168,8 +168,7 @@ AWS CodePipeline is a fully managed continuous delivery service that helps to au
 
 
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/sonar3.jpg)
-
-SonarQube is the leading tool for continuously inspecting Code Quality and Code Security, and guiding development teams during code reviews. SonarQube provides clear remediation guidance for 27 languages so developers can understand and fix issues, and bugs and so teams can deliver better and safer software. which is an amazing tool but so exhusting for me AS AWS DON NOT HAVE A PLUGIN for sonars i keept searching for this but there is no reabile matrial to work with in aws but i found a paper in spanich ! i transelated it and deployed it and i did !!!
+SonarQube is the leading tool for continuously inspecting Code Quality and Code Security, and guiding development teams during code reviews. SonarQube provides clear remediation guidance for 27 languages so developers can understand and fix issues, and bugs and so teams can deliver better and safer software. which is an amazing tool but so exhausting for me AS AWS DON NOT HAVE A PLUGIN for sonars I kept searching for this but there is no reliable material to work within aws but I found a paper in Spanish! I translated it and deployed it and I did !!!
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/SONAR%20T2.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/SONARCONFIG.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/sonar1.jpg)
@@ -184,7 +183,7 @@ SonarQube is the leading tool for continuously inspecting Code Quality and Code 
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/4.png)
 
 
-i really hadnt enogh time to cosidered it but i did i a search and i know that it has a spacific aws ec2 plugin itsname aws_ec2.yaml and it will act as dynamic inventory , and its better to configure with ansible in aws ec2 instance env and i found a code doing it with a shell module 
+I really hadn't enough time to consider it but I did i a search and  know that it has a specific aws ec2 plugin its name aws_ec2.yaml and it will act as dynamic inventory, and it's better to configure with Ansible in AWS ec2 instance env and I found a code doing it with a shell module 
 
 ```
 $---
