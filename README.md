@@ -173,12 +173,17 @@ SonarQube is the leading tool for continuously inspecting Code Quality and Code 
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/SONAR%20T2.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/SONARCONFIG.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/sonar1.jpg)
+
+ #### it took me a day without sleeping to make it and i blieve no one AROUND  done it beFOR IN AWS 🥇
+
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/sonar2.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/sonar4.jpg)
 
+#### Ansible
+i really hadnt enogh time to cosidered it but i did i a search and i know that it has a spacific aws ec2 plugin itsname ec2_aws.yaml and it will act as dynamic inventory , and its better to configure with ansible in aws ec2 instance env and i found a code doing it with a shell module 
 
-sonar test is an essential stage in pipline to make a good analysis for the code after deployment 
-firstly we have to make sonarqube server! ec2 instance but with special compute power 3 cpu and 4 ram ! t2.mediam that cost me so much mony in aws as its not in my free-tier. next . we deploy sonarqube serever on it as to be in our sever in the cluster then we deploy a build contain the test it self , after this the result will be directed to the server . it took me a day without sleeping to make it and i blieve no one AROUND  done it beFOR IN AWS 🥇
+
+
 
 
 
