@@ -144,8 +144,13 @@ hundereds of attepts and fails but the APP finally successfully built and deploy
 
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/pip0.jpg)
 
-AWS CodePipeline is a fully managed continuous delivery service that help to automate the release pipelines for fast and reliable application , its accutually the orcristarator of all the stages and trigger the workflow and sequance of all the devops process from commiting the code to the buld and test till the deployment process , i liked this really when i commit a change to the pipline by push to code commit the whole process begain to work line a horse in the desert
+AWS CodePipeline is a fully managed continuous delivery service that help to automate the release pipelines for fast and reliable application , its accutually the orcristarator of all the stages and trigger the workflow and sequance of all the devops process from commiting the code to the buld and test till the deployment process , i liked this really when i commit a change to the pipline by push to code commit the whole process begain to work line a horse in the desert.so flexable that you can add stages in or after any build or source artifact .
 
+
+![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/pip5.jpg)
+
+
+### and this my addvanture deploying my app using codepipline , 
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/pip1.jpg)
 
 
@@ -154,8 +159,8 @@ AWS CodePipeline is a fully managed continuous delivery service that help to aut
 
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/pip4.jpg)
 
-
-![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/pip5.jpg)
+### NOW checking the cluster result 
+![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/pip2.jpg)
 
 
 
