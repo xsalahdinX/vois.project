@@ -1,0 +1,18 @@
+version: 0.2
+phases:
+    install:
+        runtime-versions:
+            nodejs: 12
+        commands:
+            - npm install -g sonarqube-scanner
+            - cd devawsfrontend
+            - npm install
+            - npm i
+    build:
+        commands:
+        
+            - npm run coverage
+    post_build:
+        commands:
+        
+            - sonar-scanner -Dsonar.projectKey=salahdin -Dsonar.sources=. -Dsonar.host.url=http://ec2-44-193-9-215.compute-1.amazonaws.com:9000 -Dsonar.login=a0c00e7d5783a04c9e4a171c8a80f6fea2eed6b0
