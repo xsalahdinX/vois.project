@@ -14,12 +14,13 @@ i spend like day from the 3 days deadline revealling AZure pipline concepts and 
 
 Project is created with:
 
-* Terraform ( infrastructure as code )
-* Amazon Elastic Container Registry (ECR)
+* Terraform
+* Amazon Elastic Container Registry 
 * Amazon Codecommit 
 * Amazon Codebuild  
 * Amazon Codepipline 
 * Sonarqube
+* Ansible
 
 
 
