@@ -160,7 +160,7 @@ AWS CodePipeline is a fully managed continuous delivery service that help to aut
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/pip4.jpg)
 
 ### NOW checking the cluster result 
-![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/pip2.jpg)
+![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/deployeks%20sucess.jpg)
 
 
 
