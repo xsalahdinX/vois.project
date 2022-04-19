@@ -165,10 +165,12 @@ AWS CodePipeline is a fully managed continuous delivery service that helps to au
 
 ## Sonarqube
 
+SonarQube is the leading tool for continuously inspecting Code Quality and Code Security, and guiding development teams during code reviews. SonarQube provides clear remediation guidance for 27 languages so developers can understand and fix issues, and bugs and so teams can deliver better and safer software. which is an amazing tool but so exhausting for me AS AWS DO NOT HAVE A PLUGIN for sonars I kept searching for this but there is no reliable material to work within aws but I found a paper in Spanish! and I did !!!
 
 
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/sonar3.jpg)
-SonarQube is the leading tool for continuously inspecting Code Quality and Code Security, and guiding development teams during code reviews. SonarQube provides clear remediation guidance for 27 languages so developers can understand and fix issues, and bugs and so teams can deliver better and safer software. which is an amazing tool but so exhausting for me AS AWS DO NOT HAVE A PLUGIN for sonars I kept searching for this but there is no reliable material to work within aws but I found a paper in Spanish! and I did !!!
+
+it is required to set up a server inside the cluster sonarqube server that will take the request when building and to test the code locally inside the ec2 sonarqube server, as it shows the DNS of the local ec2 that the URL, the service operates in port 9000. so the analysis is performed in the ec2 instance and goes back to the build consequently it has to be t2.meduim with 3 CPU and 4 ram for more compute power and of course not in my free-tier package so i payed for it :)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/SONAR%20T2.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/SONARCONFIG.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/sonar1.jpg)
