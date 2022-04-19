@@ -159,8 +159,20 @@ AWS CodePipeline is a fully managed continuous delivery service that help to aut
 
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/pip4.jpg)
 
-### NOW checking the cluster result 
+### NOW checking the cluster result / the deployment done successfully :DDD
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/deployeks%20sucess.jpg)
+
+
+### Sonarqube
+
+SonarQube is the leading tool for continuously inspecting Code Quality and Code Security, and guiding development teams during code reviews. SonarQube provides clear remediation guidance for 27 languages so developers can understand and fix issues, and bugs and so teams can deliver better and safer software. which is an amazing tool but so exhusting for me AS AWS DON NOT HAVE A PLUGIN for sonars i keept searching for this but there is no reabile matrial to work with in aws but i found a paper in spanich ! i transelated it and deployed it and i did !!!
+
+
+sonar test is an essential stage in pipline to make a good analysis for the code after deployment 
+firstly we have to make sonarqube server! ec2 instance but with special compute power 3 cpu and 4 ram ! t2.mediam that cost me so much mony in aws as its not in my free-tier. next . we deploy sonarqube serever on it as to be in our sever in the cluster then we deploy a build contain the test it self , after this the result will be directed to the server . it took me a day without sleeping to make it and i blieve no one AROUND  done it beFOR IN AWS 🥇
+
+
+
 
 
 
