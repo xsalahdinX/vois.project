@@ -26,13 +26,13 @@ Project is created with:
 
 Firstly we need to Provision an Elastic k8s Cluser in Aws so we used Terraform for this job After the cluster has been created we collecting all the files in codecommit that will be used to integrate the code then codebuild will pull the code and build it as image and push it to the ECR Container Registry which we will used it in pulling the image to be deployed as container in the Eks. through this process , the cloudqube will test and validate the code from bugs and valnarbibilties before the deploymnet. this whole proccess is ocrestrated by the codepipline which aoutimat the whole process from code change in the repo to apply in the cluster .
 
-## Setting up and deploying the technonlgys
+# Setting up and deploying the technonlgys
 
 
 
 
 
-### Terraform
+## Terraform
 
 Terraform is an open source infrastructure as code (IaC) software tool that allows DevOps engineers to programmatically provision the physical resources an application requires to run and it was really the best choice 
 
@@ -59,6 +59,13 @@ $ terraform apply
 
 
 
+
+
+
+
+
+
+
 ### AWS Elastic Kubernetes Service (EKS)
 
 ![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/eks%20cluster.png)
@@ -76,16 +83,48 @@ of course all the worker nodes in privat subnets , with 2 nat gatways in puplic 
 
 
 
+
+
+
+
+
+
+
+
+
+
 ### AWS CodeCommit
 
 
-AWS CodeCommit is a secure, highly scalable, managed source control service that hosts private Git repositories. It makes it easy for teams to securely collaborate on code with contributions encrypted in transit and at rest. 
+![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/repo1.jpg)
+
+
+AWS CodeCommit is a secure, highly scalable, managed source control service that hosts private Git repositories. It makes it easy for teams to securely collaborate on code with contributions encrypted in transit and at rest. I USED CODECOMMIT AS SORCE CODE REOSITORY FOR ALL my projrct phases  the app deploy and build and sonartest.
 
 
 
 
 
-### AWS Elastic Container Registry (ECR)
+
+
+## AWS Elastic Container Registry (ECR)
+
+
+
+![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/ecr1.jpg)
+
+
+Amazon Elastic Container Registry (ECR) is a fully managed Docker container registry that makes it easy to store, share, and deploy container images.like docker hub and others i used it too for compitabilty with aws as it aws manged its acctually the repo that host the image after codebuild build and constract the dockerfile to be and image. 
+
+![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/ecr2.jpg)
+
+![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/ecr5.jpg)
+
+and acctually it documented all my attempts too :)
+
+
+
+
 
 
 
