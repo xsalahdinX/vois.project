@@ -7,7 +7,7 @@
 an interesting project aims to transform to DevOps methodology and Automation, imagine high impact project that will have a huge impact on the performance of an Application, has to be integrated built tested, and deployed in 3hours rather than 3 days. we need to create an EKS Elastic Kubernetes Cluster in AWS to deploy our microservices App on it, then we should create a reliable pipeline that should trigger the change in the code and begin the build, test, and deploy. in other words a full automated DevOps Infinity Loop .
 
 
-### an accedental scinario
+### An accidental scenario
 I spend like  a day from the 3 days deadline revealing AZure pipeline concepts and actual deployment then suddenly I discovered that they made a recent obligation and role for the usage of it, I have to communicate with them personally to give me the permission to use the pipeline, and that was a huge waste of time as I had 2 days remaining not 3 days, so I decided to continue  my work on AWS Code pipeline but I discovered that all the plugins that I have to work with and you mentioned in your manifest is not compatible with AWS and required huge jobs and could be not functional enough, so I made some justification to catch the situation 
 
 ## Technologies
