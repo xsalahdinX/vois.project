@@ -130,6 +130,7 @@ and acctually it documented all my attempts too :)
 
 CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to be released ,this stage was so hard to me as it required infinite amount of working and troubleshooting we have a file name buildspecs.yml that the build itself will be based on it and we have to write into it all build specifications how the build will be and what repo will image be pushed into  what kind of deploy will be and the authentication with EKS to be release the deploy  ,mixed with the environment variables such as the the docker repo and the  iam rols which is due to my experience the most complicated thing as my code failed more than 150 times because of it , we should implement many policy to the code build role to be capable of communicate with other aws resources , in addition to , its proprieties such as what kind of vm we will use to build ubuntu or Linux 2 which repo this build will linked to and env vars and the specific policy for build process.
 
+![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/role.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/build2.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/build3.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/build4.jpg)
