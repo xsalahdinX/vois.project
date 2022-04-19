@@ -180,7 +180,7 @@ SonarQube is the leading tool for continuously inspecting Code Quality and Code 
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/sonar4.jpg)
 
 #### Ansible
-i really hadnt enogh time to cosidered it but i did i a search and i know that it has a spacific aws ec2 plugin itsname ec2_aws.yaml and it will act as dynamic inventory , and its better to configure with ansible in aws ec2 instance env and i found a code doing it with a shell module 
+i really hadnt enogh time to cosidered it but i did i a search and i know that it has a spacific aws ec2 plugin itsname aws_ec2.yaml and it will act as dynamic inventory , and its better to configure with ansible in aws ec2 instance env and i found a code doing it with a shell module 
 
 
 
