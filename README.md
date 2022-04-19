@@ -136,6 +136,14 @@ CodeBuild is a fully managed continuous integration service that compiles source
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/build4.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/build7.jpg)
 
+hundereds of attepts and fails but the APP finally successfully built and deployed :)
+
+## Amazon Codepipline 
+
+
+
+
+
 
 
 
