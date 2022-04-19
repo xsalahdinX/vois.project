@@ -182,8 +182,22 @@ SonarQube is the leading tool for continuously inspecting Code Quality and Code 
 #### Ansible
 i really hadnt enogh time to cosidered it but i did i a search and i know that it has a spacific aws ec2 plugin itsname aws_ec2.yaml and it will act as dynamic inventory , and its better to configure with ansible in aws ec2 instance env and i found a code doing it with a shell module 
 
+```
 
-
+$---
+$- name: Deploy to K8s Cluster 
+$ hosts: all
+$ become: true
+$tasks:
+$  - name: Deploy Pod
+$   shell: |
+$      kubectl apply -f pod.yml
+$
+$  - name: Deploy Service
+$    shell: | 
+$      kubectl apply -f svc.yml
+```
+![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/4.png)
 
 
 
