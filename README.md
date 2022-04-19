@@ -22,6 +22,11 @@ Project is created with:
 * Sonarqube
 * Ansible
 
+## General  Workflow 
+
+Firstly we need to Provision an Elastic k8s Cluser in Aws so we used Terraform for this job After the cluster has been created we collecting all the files in codecommit that will be used to integrate the code then codebuild will pull the code and build it as image and push it to the ECR Container Registry which we will used it in pulling the image to be deployed as container in the Eks. through this process , the cloudqube will test and validate the code from bugs and valnarbibilties before the deploymnet. this whole proccess is ocrestrated by the codepipline which aoutimat the whole process from code change in the repo to apply in the cluster .
+
+
 
 
 
