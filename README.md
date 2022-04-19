@@ -163,6 +163,11 @@ AWS CodePipeline is a fully managed continuous delivery service that helps to au
 ### NOW checking the cluster result / the deployment done successfully :DDD
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/deployeks%20sucess.jpg)
 
+### and here is my AWS billing   :(((
+
+
+![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/save%20biiliing.jpg)
+
 
 ## Sonarqube
 
