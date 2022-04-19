@@ -29,7 +29,37 @@ Firstly we need to Provision an Elastic k8s Cluser in Aws so we used Terraform f
 ## Setting up and deploying the technonlgys
 
 
-### EKS
+
+
+
+### Terraform
+
+Terraform is an open source infrastructure as code (IaC) software tool that allows DevOps engineers to programmatically provision the physical resources an application requires to run and it was really the best choice 
+
+![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/tr2.jpg)
+
+
+
+I made 6 files i seprrated the code one for policy and roles and other for vpc and another for the cluster for easier mangment and one for variables , you may noice a .tfstate file thats the current state of terrafom as i made number of provisions and trobleshooting 
+
+firstly i installed terraform in my centos vm and i make a dir and for all the * .tf s files required to provsion the EKS cluser then we run the command blew
+
+
+```
+$ terraform init
+$ terraform plan
+$ terraform apply
+```
+
+![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/ter3.jpg)
+
+
+
+
+
+
+
+### AWS Elastic Kubernetes Service (EKS)
 
 ![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/eks%20cluster.png)
 
@@ -46,6 +76,16 @@ of course all the worker nodes in privat subnets , with 2 nat gatways in puplic 
 
 
 
+### AWS CodeCommit
+
+
+AWS CodeCommit is a secure, highly scalable, managed source control service that hosts private Git repositories. It makes it easy for teams to securely collaborate on code with contributions encrypted in transit and at rest. 
+
+
+
+
+
+### AWS Elastic Container Registry (ECR)
 
 
 
@@ -60,26 +100,10 @@ of course all the worker nodes in privat subnets , with 2 nat gatways in puplic 
 
 
 
-### * Terraform
-
-Terraform is an open source infrastructure as code (IaC) software tool that allows DevOps engineers to programmatically provision the physical resources an application requires to run and it was really the best choice 
-
-![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/tr2.jpg)
 
 
 
-I made 6 files i seprrated the code one for policy and other for vpc and another for the cluster for easier mangment and one for variables , you may noice a .tfstate file thats the current state of terrafom as i made number of provisions and trobleshooting 
 
-firstly i installed terraform in my centos vm and i make a dir and for all the * .tf s files required to provsion the EKS cluser then we run the command blew
-
-
-```
-$ terraform init
-$ terraform plan
-$ terraform apply
-```
-
-![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/ter3.jpg)
 
 
 
