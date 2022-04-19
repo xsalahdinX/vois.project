@@ -141,6 +141,9 @@ hundereds of attepts and fails but the APP finally successfully built and deploy
 ## Amazon Codepipline 
 
 
+AWS CodePipeline is a fully managed continuous delivery service that help to automate the release pipelines for fast and reliable application , its accutually the orcristarator of all the stages and trigger the workflow and sequance of all the devops process from commiting the code to the buld and test till the deployment process , i liked this really when i commit a change to the pipline by push to code commit the whole process begain to work line a horse in the desert
+
+
 
 
 
