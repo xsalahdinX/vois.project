@@ -167,13 +167,13 @@ AWS CodePipeline is a fully managed continuous delivery service that help to aut
 
 
 
-![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/SONAR%20T2.jpg)
+![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/sonar3.jpg)
 
 SonarQube is the leading tool for continuously inspecting Code Quality and Code Security, and guiding development teams during code reviews. SonarQube provides clear remediation guidance for 27 languages so developers can understand and fix issues, and bugs and so teams can deliver better and safer software. which is an amazing tool but so exhusting for me AS AWS DON NOT HAVE A PLUGIN for sonars i keept searching for this but there is no reabile matrial to work with in aws but i found a paper in spanich ! i transelated it and deployed it and i did !!!
+![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/SONAR%20T2.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/SONARCONFIG.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/sonar1.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/sonar2.jpg)
-![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/sonar3.jpg)
 ![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/sonar4.jpg)
 
 
