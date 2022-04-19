@@ -99,8 +99,7 @@ of course all the worker nodes in privat subnets , with 2 nat gatways in puplic 
 ![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/repo1.jpg)
 
 
-AWS CodeCommit is a secure, highly scalable, managed source control service that hosts private Git repositories. It makes it easy for teams to securely collaborate on code with contributions encrypted in transit and at rest. I USED CODECOMMIT AS SORCE CODE REOSITORY FOR ALL my projrct phases  the app deploy and build and sonartest.
-
+AWS CodeCommit is a secure, highly scalable, managed source control service that hosts private Git repositories. It makes it easy for teams to securely collaborate on code with contributions encrypted in transit and at rest.I USED CODECOMMIT AS SORCE CODE REOSITORY FOR ALL my projrct phases  the app deploy and build and sonartest.  it contain all file such as the APP file , dockerfiles and buildspec.yml
 
 
 
@@ -121,6 +120,11 @@ Amazon Elastic Container Registry (ECR) is a fully managed Docker container regi
 ![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/ecr5.jpg)
 
 and acctually it documented all my attempts too :)
+
+## AWS Code Build 
+
+CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to be realsed ,this stage was so hard to me as it required infinit amount of working and troubleshooting we have a file name buildspecs.yml that the build itself will be based on it and we have to write into it all build specifications how the build will be and what reop will image be pushed into what kind of deploy will be and the quthantication with EKS to be release the deploy to ,mixed with the environmnet varaibles such as the the docker repo and th iam rols which is due to my experince the most complicated thing as my code faild more than 150 times because of it , we should impliment many policy to the code build role to be cabable of communicate with other aws resorces , in addition to , its propreitise such as what kind of vm we will use to build ubunto or linux 2 which repo this build will lin 
+
 
 
 
