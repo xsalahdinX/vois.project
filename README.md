@@ -37,7 +37,11 @@ Firstly we need to Provision an Elastic k8s Cluser in Aws so we used Terraform f
 the EKS cluser have a spacific architicture with a spacific vpc sperated into to 2 two zones each worker node in separted zone for high avalability
 of course all the worker nodes in privat subnets , with 2 nat gatways in puplic subnets attached with 2 elastic ips for front end communication linked to an internetgatway , all worker nodes attached with security groups and attched to node group to provide high avalabilty and reabilty kind of auto scalling gruop the mater of course is aws manged , finnaly there were some iam group to provide connewctivty and athorize the cluster to interact with many aws services. 
 
+![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/eksssssssssssss.jpg)
 
+![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/eks2.jpg)
+
+![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/eks%203.jpg)
 
 
 
@@ -61,14 +65,21 @@ of course all the worker nodes in privat subnets , with 2 nat gatways in puplic 
 Terraform is an open source infrastructure as code (IaC) software tool that allows DevOps engineers to programmatically provision the physical resources an application requires to run and it was really the best choice 
 
 ![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/tr2.jpg)
-firstly in installed terraform in my centos vm and i make a dir and for all the * .tf s files required to provion the EKS cluser then we run
+
+
+
+I made 6 files i seprrated the code one for policy and other for vpc and another for the cluster for easier mangment and one for variables , you may noice a .tfstate file thats the current state of terrafom as i made number of provisions and trobleshooting 
+
+firstly i installed terraform in my centos vm and i make a dir and for all the * .tf s files required to provsion the EKS cluser then we run the command blew
+
+
 ```
 $ terraform init
 $ terraform plan
 $ terraform apply
 ```
 
-
+![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/ter3.jpg)
 
 
 
