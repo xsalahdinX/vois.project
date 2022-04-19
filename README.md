@@ -121,9 +121,20 @@ Amazon Elastic Container Registry (ECR) is a fully managed Docker container regi
 
 and acctually it documented all my attempts too :)
 
-## AWS Code Build 
+## AWS Code Build   
 
-CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to be realsed ,this stage was so hard to me as it required infinit amount of working and troubleshooting we have a file name buildspecs.yml that the build itself will be based on it and we have to write into it all build specifications how the build will be and what reop will image be pushed into what kind of deploy will be and the quthantication with EKS to be release the deploy to ,mixed with the environmnet varaibles such as the the docker repo and th iam rols which is due to my experince the most complicated thing as my code faild more than 150 times because of it , we should impliment many policy to the code build role to be cabable of communicate with other aws resorces , in addition to , its propreitise such as what kind of vm we will use to build ubunto or linux 2 which repo this build will lin 
+
+
+
+![alt text](https://github.com/xsalahdinX/vois.project/blob/main/pics/build1.jpg)
+
+CodeBuild is a fully managed continuous integration service that compiles source code, runs tests, and produces software packages that are ready to be realsed ,this stage was so hard to me as it required infinit amount of working and troubleshooting we have a file name buildspecs.yml that the build itself will be based on it and we have to write into it all build specifications how the build will be and what reop will image be pushed into what kind of deploy will be and the quthantication with EKS to be release the deploy to ,mixed with the environmnet varaibles such as the the docker repo and th iam rols which is due to my experince the most complicated thing as my code faild more than 150 times because of it , we should impliment many policy to the code build role to be cabable of communicate with other aws resorces , in addition to , its propreitise such as what kind of vm we will use to build ubunto or linux 2 which repo this build will linked to and env vars and the spacific policy for build process.
+
+![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/build2.jpg)
+![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/build3.jpg)
+![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/build4.jpg)
+![image](https://github.com/xsalahdinX/vois.project/blob/main/pics/build7.jpg
+)
 
 
 
